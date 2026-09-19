@@ -261,14 +261,13 @@ widgets:
       gallery:
         enabled: true
         blur: true
-        image_width: 296
-        image_per_page: 6
-        show_buttons: true
-        orientation: "portrait"
-        image_spacing: 10
+        image_width: 520
+        type: "strip"
+        orientation: "landscape"
+        accent_color: "auto"
+        image_corner_radius: 0
         lazy_load: true
         lazy_load_fadein: 200
-        image_corner_radius: 20
   power_menu:
       type: "yasb.power_menu.PowerMenuWidget"
       options:
